@@ -1,0 +1,113 @@
+Multithreding
+Projects
+Collection Framework
+bitwise operator
+immutable class
+SOLID
+Thread
+singleton class
+Hashmap and internal implementation
+finding number of vowels in a string and string reversal.
+@Qualifier in spring 
+stack overflow
+How spring works ?
+Write custom exception?
+reverse an array...hibernate onetomany ..manytoone
+
+1) What is mutability? Why is String class immutable?
+2) What are bean scopes? What are singleton and prototype bean scopes?
+3) String reverse using recursion?
+4) get and load difference in hibernate?
+5) update and merge difference in hibernate?
+6) How many Session Factory objects can we have in our application? Why restrict it to one only?
+7) Questions related to String pool by having two questions, one using equals method on two string instances with same value ("abc") and other having two Student instances where 1) Student class has nothing 2) Student class has some data members.
+
+Second Round:
+1) Tell one instance where you there was a design flaw in the project and you have implemented a better design approach and optimised the code using new design.
+2) To find the occurence of most repeating word in the file (Need to WAP)
+3) Difference between Comparable and Comparator (with Code)
+4) WAP for binary search.
+5) WAP to swap two numbers without using third variable.
+
+Spring security
+
+Difference between StringBuilder and StringBuffer
+
+Print even and odd no using different threads like 1 2 3 4 5 6 .....
+
+Second level caching in hibernate
+
+Which collection will use in multithreaded environment
+
+What are the best industry standards for RestFulApi and how will you handle the large data records returned from the database .
+
+Why wait method is in Object class and not in Thread class
+
+What is the difference between many to many and one to many relationships in hibernate. I was also given a scenario.
+
+Do you know about CopyOnWriteArrayList
+
+In which scenario you will use interface and when you use abstraction ?
+
+is session factory is thread safe in hibernate ?
+
+Basic core java questions.
+final keyword, constructor, inheritance, some tricky technical programs, strings related programs
+Spring: inversion of control, AOP, dependency injection, project structure
+Hibernate: config xml, ORM, why hibernate
+
+What is the jvm architecture
+
+ Is it possible to instanciate the abstract class? Explain.
+What was the architecture used in your project?
+
+Q5. Write a Program to check if 2 strings are Anagrams ?	Core Java
+Ans. public void checkIfAnagram(String str1,String str2){
+boolean anagram = true;
+for(char c:str1.toCharArray()){
+if(!str2.contains(String.valueOf(c))){
+System.out.println("Strings are Anagrams");
+anagram = false;
+}
+
+if(anagram == true){
+System.out.println("Strings are not Anagrams");
+}
+}
+}
+
+
+What is DBMS?
+
+Difference between delete, truncate, and drop commands?
+What are joins?
+Types of joins in DBMS?
+Difference between a primary key and a unique key?
+
+Program to count the number of characters( characters can be a letter or a digit) in the string.
+
+SQL commands?
+What is SQL?
+
+SQL Injection?
+Which Database do you use?
+
+Tell the difference between Multilevel inheritance and Multiple inheritance?
+
+coding question : given two un-sorted array you have to merge both array in third array and the merge array should be sorted and doesn’t contain duplicate element.
+
+Write a query to fetch the mobile number of employees starting with 98 ?
+
+. Do you know searching and sorting algorithms?
+
+       7. Write the code of bubble sort
+
+Sort the array using Merge Sort?
+
+Frequency of every letter in a string
+
+Explain Agile Software Development Methodology ?
+
+Tell the practical  applications of Linked List, Array and Queue .
+
+Q.5: Swap two numbers without using a third variable.

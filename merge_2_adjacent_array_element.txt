@@ -1,0 +1,26 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a1[]= {1,2,3,4,5};
+		int a2[]= {11,12,13,14,15};
+		int a=a1.length;
+		int b=a2.length;
+		int c=a+b;
+		int res[]= new int[c];
+		int k=0;
+		for(int i=0;i<a;i++){
+		    res[k]=a1[i];
+		    k=k+2;
+		   
+		}
+		int j=1;
+		for(int i=0;i<b;i++){
+		    res[j]=a2[i];
+		    j=j+2;
+		}
+		
+		for(int i=0;i<c;i++){
+		System.out.println(res[i]);
+		}
+	}
+}
